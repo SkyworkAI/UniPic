@@ -1,0 +1,13 @@
+SkyworkUniPic
+
+Copyright (c) 2025  SkyworkAI and contributors
+
+This project includes code from the following open source projects:
+
+This software contains code derived from Harmon (https://github.com/wusize/Harmon), available under the S-Lab License 1.0. Copyright 2022 S-Lab.
+
+This software contains code derived from Qwen2.5 (https://github.com/QwenLM/Qwen2.5), available under the Apache License 2.0.
+
+This software contains code derived from MAR (https://github.com/LTH14/mar), available under the MIT License.
+
+This software contains code derived from SigLIP2 (https://huggingface.co/google/siglip2-so400m-patch16-512), available under the Apache License 2.0.

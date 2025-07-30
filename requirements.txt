@@ -1,0 +1,8 @@
+torch==2.6.0
+deepspeed
+peft
+xtuner
+mmengine
+transformers==4.45.2
+timm==0.9.12
+# flash_attn==2.3.4
