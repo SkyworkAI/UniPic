@@ -8,23 +8,9 @@ from transformers.cache_utils import DynamicCache
 from src.builder import BUILDER
 from tqdm import tqdm
 from torch.nn.utils.rnn import pad_sequence
-from transformers.integrations.deepspeed import (
-    is_deepspeed_zero3_enabled,
-    set_hf_deepspeed_config,
-    unset_hf_deepspeed_config, 
-    deepspeed_config
-)
 
-@contextlib.contextmanager
-def temporarily_disable_deepspeed_zero3():
-    if is_deepspeed_zero3_enabled():
-        config = deepspeed_config()
-        print(f'[DEBUG] ds config={config}')
-        unset_hf_deepspeed_config()
-        yield
-        set_hf_deepspeed_config(config)
-    else:
-        yield
+
+
 
 
 
@@ -51,14 +37,13 @@ class SkyworkUnipic(nn.Module):
                  tokenizer,
                  prompt_template):
         super().__init__()
-        with temporarily_disable_deepspeed_zero3():
-            # VAE
-            self.vae = BUILDER.build(vae)
-            self.vae.requires_grad_(False)
-            self.vae_scale = vae_scale
+        # VAE
+        self.vae = BUILDER.build(vae)
+        self.vae.requires_grad_(False)
+        self.vae_scale = vae_scale
 
-            # LLM
-            self.llm = BUILDER.build(llm)
+        # LLM
+        self.llm = BUILDER.build(llm)
         self.tokenizer = BUILDER.build(tokenizer)
         self.prompt_template = prompt_template
 
