@@ -6,7 +6,7 @@
   <h1><strong>SkyworkUniPic</strong></h1>
 </div>
 
-<font size=7><div align='center' >  [[🤗 SkyworkUniPic](https://huggingface.co/Skywork/Skywork-UniPic-1.5B)] [[📖 SkyworkUniPic Report](https://github.com/SkyworkAI/UniPic/blob/main/UNIPIC.pdf)] </div></font>
+<font size=7><div align='center' >  [[🤗 SkyworkUniPic](https://huggingface.co/Skywork/Skywork-UniPic-1.5B)] [[📖 SkyworkUniPic Report](https://github.com/SkyworkAI/UniPic/blob/main/UNIPIC.pdf)] [[🏄 Web Demo](https://huggingface.co/spaces/Skywork/UniPic)]</div></font> 
 
 Welcome to the Skywork-UniPic repository! This repository contains the model weights and implementation of our unified 1.5B-parameter autoregressive model that natively integrates image understanding, text-to-image generation, and image editing capabilities within a single architecture.
 
