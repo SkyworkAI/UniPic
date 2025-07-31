@@ -140,6 +140,7 @@ huggingface-cli download Skywork/Skywork-UniPic-1.5B  --local-dir checkpoint --r
 ```
 ### ✏️ Image Editing
 ```shell
+# only support 1024 image_size
 export PYTHONPATH=./:$PYTHONPATH
 python scripts/image_edit.py configs/models/qwen2_5_1_5b_kl16_mar_h.py \
          --checkpoint checkpoint/pytorch_model.bin  --image_size 1024 \
@@ -152,6 +153,7 @@ python scripts/image_edit.py configs/models/qwen2_5_1_5b_kl16_mar_h.py \
 You can generate images from text prompts using the following command:
 
 ```shell
+# only support 1024 image_size
 export PYTHONPATH=./:$PYTHONPATH
 python scripts/text2image.py configs/models/qwen2_5_1_5b_kl16_mar_h.py \
          --checkpoint checkpoint/pytorch_model.bin  --image_size 1024 \
