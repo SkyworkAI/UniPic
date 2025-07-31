@@ -26,7 +26,7 @@ if __name__ == '__main__':
     parser.add_argument('config', help='config file path.')
     parser.add_argument("--checkpoint", type=str, default=None)
     parser.add_argument("--image", type=str, default="data/sample.png")
-    parser.add_argument("--image_size", type=int, default=512)
+    parser.add_argument("--image_size", type=int, default=1024)
     parser.add_argument("--prompt", type=str, default="Describe the image in detail.")
     args = parser.parse_args()
 

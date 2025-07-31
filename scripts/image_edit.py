@@ -53,7 +53,7 @@ class EditInferencer:
         self, 
         source_image: Image.Image, 
         prompt: str, 
-        num_iter: int = 48, 
+        num_iter: int = 32, 
         cfg: float = 3.0,
         cfg_prompt: str = "Repeat this image.",
         cfg_schedule: str = "constant",

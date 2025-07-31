@@ -40,8 +40,8 @@ if __name__ == '__main__':
     parser.add_argument("--cfg", type=float, default=3.0)
     parser.add_argument("--temperature", type=float, default=1.0)
     parser.add_argument('--cfg_schedule', type=str, default='constant')
-    parser.add_argument('--num_iter', type=int, default=64)
-    parser.add_argument('--image_size', type=int, default=512)
+    parser.add_argument('--num_iter', type=int, default=32)
+    parser.add_argument('--image_size', type=int, default=1024)
     parser.add_argument('--grid_size', type=int, default=2)
     args = parser.parse_args()
 
