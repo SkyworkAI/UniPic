@@ -194,7 +194,7 @@ python scripts/image2text.py configs/models/qwen2_5_1_5b_kl16_mar_h.py \
 This project is licensed under [MIT License](LICENSE).
 
 ## Citation
-If you use Skywork-R1V in your research, please cite:
+If you use Skywork-UniPic in your research, please cite:
 ```
 @misc{skywork2025unipic_code,
   title={Skywork-UniPic: Unified Autoregressive Modeling for Visual Understanding and Generation},
