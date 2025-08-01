@@ -5,3 +5,4 @@ mmengine
 transformers==4.45.2
 timm==0.9.12
 gradio==4.44.1
+flash-attn==2.6.2
