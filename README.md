@@ -196,9 +196,9 @@ This project is licensed under [MIT License](LICENSE).
 ## Citation
 If you use Skywork-UniPic in your research, please cite:
 ```
-@misc{skywork2025unipic_code,
+@misc{skywork2025unipic,
   title={Skywork-UniPic: Unified Autoregressive Modeling for Visual Understanding and Generation},
-  author={{Skywork AI}},
+  author={Skywork Multimodality Team},
   year={2025},
   publisher={GitHub},
   journal={GitHub repository},
