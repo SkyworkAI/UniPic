@@ -45,7 +45,9 @@ model = dict(
         type=AutoModelForCausalLM.from_pretrained,
         pretrained_model_name_or_path=llm_name_or_path,
         torch_dtype=torch.bfloat16,
-        attn_implementation="eager",
+        # using flash_attention under v2.7 otherwise eager
+        # attn_implementation="eager",
+        attn_implementation="flash_attention_2",
     ),
     # max_huge
     mar=dict(
