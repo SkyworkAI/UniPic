@@ -138,15 +138,7 @@ It is recommended to use the following command to download the checkpoints
 # pip install -U "huggingface_hub[cli]"
 huggingface-cli download Skywork/Skywork-UniPic-1.5B  --local-dir checkpoint --repo-type model
 ```
-### ✏️ Image Editing
-```shell
-# only support 1024 image_size
-export PYTHONPATH=./:$PYTHONPATH
-python scripts/image_edit.py configs/models/qwen2_5_1_5b_kl16_mar_h.py \
-         --checkpoint checkpoint/pytorch_model.bin  --image_size 1024 \
-         --image data/sample.png --prompt "Replace the stars with the candle." \
-         --output output.jpg 
-```
+
 
 ### 🖼️ Text-to-image Generation
 
@@ -178,6 +170,18 @@ The json file should look like:
    "prompt": "Digital portrait of a girl with rainbow hair."
   }
 ]
+```
+
+### ✏️ Image Editing
+The image editing feature within this unified model is an exploratory module at the forefront of research. It currently faces challenges in edit precision, control granularity, and output consistency, and is not yet production-ready.
+
+```shell
+# only support 1024 image_size
+export PYTHONPATH=./:$PYTHONPATH
+python scripts/image_edit.py configs/models/qwen2_5_1_5b_kl16_mar_h.py \
+         --checkpoint checkpoint/pytorch_model.bin  --image_size 1024 \
+         --image data/sample.png --prompt "Replace the stars with the candle." \
+         --output output.jpg 
 ```
 
 ### 📖 Image-to-text Generation
