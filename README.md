@@ -94,6 +94,8 @@ Welcome to the Skywork-UniPic repository! This repository contains the model wei
 
 </div>
 
+The image editing feature within this unified model is an exploratory module at the forefront of research. It currently faces challenges in edit precision, control granularity, and output consistency, and is not yet production-ready.
+
 <p align="center"><strong>GEdit‑Bench‑EN</strong></p>
 <div align="center">
 
