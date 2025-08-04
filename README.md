@@ -3,7 +3,7 @@
 <!-- markdownlint-disable no-duplicate-header -->
 
 <div align="center">
-  <h1><strong>SkyworkUniPic</strong></h1>
+  <h1><strong>Skywork-UniPic</strong></h1>
 </div>
 
 <font size=7><div align='center' >  [[🤗 UniPic checkpoint](https://huggingface.co/Skywork/Skywork-UniPic-1.5B)] [[📖 Tech Report](https://github.com/SkyworkAI/UniPic/blob/main/UNIPIC.pdf)] </font> 
