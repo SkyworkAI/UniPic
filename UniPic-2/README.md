@@ -2,11 +2,12 @@
   <h1><strong>Skywork-UniPic2</strong></h1>
 </div>
 
-<font size=7><div align='center' >  [[🤗 UniPic2 checkpoint](https://huggingface.co/collections/Skywork/skywork-unipic2-6899b9e1b038b24674d996fd)] [[📖 Tech Report](https://arxiv.org/abs/2508.03320)] </font> </div>
+<font size=7><div align='center' >  [[🤗 UniPic2 checkpoint](https://huggingface.co/collections/Skywork/skywork-unipic2-6899b9e1b038b24674d996fd)] [[📖 Tech Report](assets/pdf/UNIPIC2.pdf)] </font> </div>
 
 <div align="center">
   <img src="assets/imgs/logo.png" alt="Skywork UniPic2 Teaser" width="90%">
-</div>
+</
+div>
 
 Welcome to the Skywork-UniPic2.0 repository! This repository features the model weights and implementation of our advanced unified multimodal model, UniPic2-SD3.5M-Kontext and UniPic2-MetaQuery, which deliver state-of-the-art performance in text-to-image generation, image editing, and multimodal understanding through efficient architecture design and progressive training strategies.
 
