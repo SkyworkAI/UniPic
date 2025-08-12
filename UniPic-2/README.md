@@ -24,48 +24,8 @@ Welcome to the Skywork-UniPic2.0 repository! This repository features the model 
 
 ## Evaluation
 
-<p align="center"><strong>GenEval</strong></p>
 <div align="center">
-
-| Model | Single | Two | Count | Color | Position | Attr | **Overall** |
-|:------|:------:|:---:|:-----:|:-----:|:--------:|:----:|:-----------:|
-| **Previous Models** |||||||||
-| SD3‑medium      | 0.99 | 0.94 | 0.72 | 0.89 | 0.33 | 0.60 | 0.74 |
-| FLUX.1‑dev      | 0.99 | 0.81 | 0.79 | 0.74 | 0.20 | 0.47 | 0.67 |
-| OmniGen2        | 1.00 | 0.95 | 0.64 | 0.88 | 0.55 | 0.76 | 0.80 |
-| **Skywork UniPic** | 0.98 | 0.92 | 0.74 | 0.91 | 0.89 | 0.72 | 0.86 |
-| **Skywork UniPic2** | **TBD** | **TBD** | **TBD** | **TBD** | **TBD** | **TBD** | **TBD** |
-
-</div>
-
-<p align="center"><strong>DPG‑Bench</strong></p>
-<div align="center">
-
-| Model | Global | Entity | Attribute | Relation | Other | **Overall** |
-|:------|:------:|:------:|:---------:|:--------:|:-----:|:-----------:|
-| **Previous Models** |||||||
-| SD3‑medium       | 87.90 | 91.01 | 88.83 | 80.70 | 88.68 | 84.08 |
-| FLUX.1‑dev       | 82.10 | 89.50 | 88.70 | 91.10 | 89.40 | 84.00 |
-| OmniGen2         | 88.81 | 88.83 | 90.18 | 89.37 | 90.27 | 83.57 |
-| **Skywork UniPic** | 89.65 | 87.78 | 90.84 | 91.89 | 91.95 | 85.50 |
-| **Skywork UniPic2** | **TBD** | **TBD** | **TBD** | **TBD** | **TBD** | **TBD** |
-
-</div>
-
-<p align="center"><strong>GEdit‑Bench‑EN</strong></p>
-<div align="center">
-
-| Model | SC ↑ | PQ ↑ | **Overall ↑** |
-|:------|:----:|:----:|:--------------:|
-| **Specialized Editing Models** ||||
-| Step1X‑Edit      | 7.09 | 6.76 | 6.70 |
-| **Unified Models** ||||
-| OmniGen2         | 7.16 | 6.77 | 6.41 |
-| BAGEL            | 7.36 | 6.83 | 6.52 |
-| **Skywork UniPic** | 6.72 | 6.18 | 5.83 |
-| **Skywork UniPic2** | **TBD** | **TBD** | **TBD** |
-
-</div>
+  <img src="assets/pdf/evaluation.jpeg" alt="Evaluation" width="90%">
 </div>
 
 ## Usage
