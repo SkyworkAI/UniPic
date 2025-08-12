@@ -1,19 +1,40 @@
+<h1 align="center">Skywork-UniPic</h1>
 <p align="center">
-<h1 align="center">UniPic</h1>
-<h3 align="center">Skywork AI</h3>
+  <em>Unified multimodal models for image understanding, generation, and editing</em>
 </p>
+
+---
 
 ## 📝 Overview
 
-Welcome to the Skywork-UniPic repository! This repository hosts the model weights and implementation of our unified multimodal models, including the 1.5B-parameter UniPic1 for integrated image understanding and generation, and the advanced UniPic2 series (SD3.5M-Kontext and MetaQuery) for state-of-the-art text-to-image generation, editing, and multimodal understanding through efficient architectures and progressive training.
+Welcome to the **Skywork-UniPic** repository!  
+This repository hosts the **model weights** and **official implementations** of our unified multimodal models, featuring two distinct modeling paradigms:
 
-This repository provides the official implementations of UniPic-1.0 and UniPic-2.0.
+- **UniPic-1.0** — *1.5B parameters*, **Unified Autoregressive Modeling** for joint visual understanding and generation, enabling a single transformer to handle both perception and synthesis tasks.  
+- **UniPic-2.0 Series** — *SD3.5M-Kontext* and *MetaQuery* variants based on **Efficient Architectures** with **Diffusion Post-Training**, delivering state-of-the-art performance in text-to-image generation, fine-grained image editing, and multimodal reasoning.
 
-## 🔥🔥🔥 News!!
-* Aug 13, 2025: 🔥 We released [UniPic-2](https://github.com/SkyworkAI/UniPic/blob/main/UniPic-2/README.md).
-* July 30, 2025: 🔥 We released [UniPic-1](https://github.com/SkyworkAI/UniPic2/tree/main/UniPic-1).
+---
 
+## ✨ Key Features
 
-## 📄 License
+- 🖼 **Image Understanding** — Robust perception capabilities for various visual tasks.  
+- 🎨 **Text-to-Image Generation** — High-fidelity synthesis from natural language prompts.  
+- 🛠 **Image Editing** — Seamless inpainting, outpainting, and object manipulation.  
+- ⚡ **Efficient Architecture** — Optimized for both accuracy and deployability.  
 
-This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
+---
+
+## 🔥 Latest News
+
+| Date       | Update                                                                                             |
+|------------|---------------------------------------------------------------------------------------------------|
+| **2025-08-13** | 🔥 Released **[UniPic-2](https://github.com/SkyworkAI/UniPic/blob/main/UniPic-2/README.md)** |
+| **2025-07-30** | 🔥 Released **[UniPic-1](https://github.com/SkyworkAI/UniPic2/tree/main/UniPic-1)**           |
+
+---
+
+## 📜 License
+
+This project is licensed under the **MIT License** — see the [LICENSE](LICENSE) file for details.
+
+---
