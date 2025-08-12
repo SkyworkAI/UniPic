@@ -79,11 +79,7 @@ pip install -r requirements.txt
 
 ### 📥 Checkpoints
 
-Download the model checkpoints from [🤗 Skywork UniPic2](https://huggingface.co/collections/Skywork/skywork-unipic2-6899b9e1b038b24674d996fd),
-It is recommended to use the following command to download the checkpoints
-```bash
-# pip install -U "huggingface_hub[cli]"
-huggingface-cli download Skywork/Skywork-UniPic2 --local-dir checkpoint --repo-type model
+Download the model checkpoints from [🤗 Skywork UniPic2](https://huggingface.co/collections/Skywork/skywork-unipic2-6899b9e1b038b24674d996fd)。
 ```
 
 ### 🚀 Quick Start with Scripts
