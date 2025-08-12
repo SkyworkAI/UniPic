@@ -1,4 +1,5 @@
 torch==2.6.0
+diffusers
 peft
 xtuner
 mmengine
