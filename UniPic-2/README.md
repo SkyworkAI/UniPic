@@ -13,6 +13,7 @@ Welcome to the Skywork-UniPic2.0 repository! This repository features the model 
 <div align="center">
   <img src="assets/pdf/teaser.png" alt="Skywork UniPic2 Teaser" width="90%">
 </div>
+
 ## What's New in UniPic2
 
 - **Enhanced Architecture**: Improved model architecture based on Stable Diffusion 3.5 and Flux
