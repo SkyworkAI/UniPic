@@ -5,7 +5,7 @@
 
 ## 📝 Overview
 
-Welcome to the Skywork-UniPic repository! This repository contains the model weights and implementation of our model that natively integrates image understanding, text-to-image generation, and image editing capabilities within a single architecture.
+Welcome to the Skywork-UniPic repository! This repository hosts the model weights and implementation of our unified multimodal models, including the 1.5B-parameter UniPic1.0 for integrated image understanding and generation, and the advanced UniPic2.0 series (SD3.5M-Kontext and MetaQuery) for state-of-the-art text-to-image generation, editing, and multimodal understanding through efficient architectures and progressive training.
 
 This repository provides the official implementations of UniPic-1.0 and UniPic-2.0.
 
