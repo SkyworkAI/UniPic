@@ -20,16 +20,6 @@ Welcome to the Skywork-UniPic2.0 repository! This repository features the model 
 
 ## Evaluation
 
-<p align="center"><strong>Performance Overview</strong></p>
-
-<div align="center">
-  <img src="assets/main_comparison_v2.png" alt="Main comparison" width="800"/>
-</div>
-
-<p align="center"><strong>GenEval</strong></p>
-<div align="center">
-
-
 
 | Model | Single | Two | Count | Color | Position | Attr | **Overall** |
 |:------|:------:|:---:|:-----:|:-----:|:--------:|:----:|:-----------:|
