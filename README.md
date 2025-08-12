@@ -20,10 +20,10 @@ This repository hosts the **model weights** and **official implementations** of 
 ---
 
 ## ✨ Key Features
-
-- 🖼 **Image Understanding** — Robust perception capabilities for various visual tasks.  
+ 
 - 🎨 **Text-to-Image Generation** — High-fidelity synthesis from natural language prompts.  
-- 🛠 **Image Editing** — Seamless inpainting, outpainting, and object manipulation.  
+- 🛠 **Image Editing** — Seamless inpainting, outpainting, and object manipulation.
+- 🖼 **Image Understanding** — Robust perception capabilities for various visual tasks. 
 - ⚡ **Efficient Architecture** — Optimized for both accuracy and deployability.  
 
 ---
