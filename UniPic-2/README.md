@@ -94,8 +94,8 @@ We provide four standalone scripts for different inference modes:
 
 **Text-to-Image Generation:**
 ```bash
-python scripts/sd35m_text2image.py \
-    --checkpoint_path /path/to/unipicv2_sd_3_5m_kontext \
+python scripts/unipic2_sd35m_kontext_t2i.py \
+    --checkpoint_path /path/to/unipic2_sd35m_kontext \
     --prompt "a pig with wings and a top hat flying over a happy futuristic scifi city" \
     --output text2image.png \
     --height 512 --width 384 \
@@ -106,8 +106,8 @@ python scripts/sd35m_text2image.py \
 
 **Image Editing:**
 ```bash
-python scripts/sd35m_image_editing.py \
-    --checkpoint_path /path/to/unipicv2_sd_3_5m_kontext \
+python scripts/unipic2_sd35m_kontext_editing.py \
+    --checkpoint_path /path/to/unipic2_sd35m_kontext \
     --input_image text2image.png \
     --prompt "remove the pig's hat" \
     --output image_editing.png \
@@ -121,8 +121,8 @@ python scripts/sd35m_image_editing.py \
 
 **Text-to-Image Generation:**
 ```bash
-python scripts/qwen_text2image.py \
-    --checkpoint_path /path/to/unipicv2_qwen2_5_vl_7b_sd_3_5m_kontext \
+python scripts/unipic2_mq_t2i.py \
+    --checkpoint_path /path/to/unipic2_mq \
     --prompt "a pig with wings and a top hat flying over a happy futuristic scifi city" \
     --output qwen_text2image.png \
     --height 512 --width 384 \
@@ -133,8 +133,8 @@ python scripts/qwen_text2image.py \
 
 **Image Editing with Vision Input:**
 ```bash
-python scripts/qwen_image_editing.py \
-    --checkpoint_path /path/to/unipicv2_qwen2_5_vl_7b_sd_3_5m_kontext \
+python scripts/unipic2_mq_editing.py \
+    --checkpoint_path /path/to/unipic2_mq \
     --input_image input_image.png \
     --prompt "remove the pig's hat" \
     --output qwen_image_editing.png \
