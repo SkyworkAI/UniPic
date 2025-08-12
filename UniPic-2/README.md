@@ -100,17 +100,3 @@ python scripts/unipic2_mq_editing.py \
     --seed 42
 ```
 
-## Citation
-If you use Skywork-UniPic2 in your research, please cite:
-```
-@misc{wang2025skyworkunipicunifiedautoregressive,
-      title={Skywork UniPic: Unified Autoregressive Modeling for Visual Understanding and Generation}, 
-      author={Peiyu Wang and Yi Peng and Yimeng Gan and Liang Hu and Tianyidan Xie and Xiaokun Wang and Yichen Wei and Chuanxin Tang and Bo Zhu and Changshi Li and Hongyang Wei and Eric Li and Xuchen Song and Yang Liu and Yahui Zhou},
-      year={2025},
-      eprint={2508.03320},
-      archivePrefix={arXiv},
-      primaryClass={cs.CV},
-      url={https://arxiv.org/abs/2508.03320}, 
-}
-```
-
