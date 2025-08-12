@@ -33,7 +33,7 @@ Welcome to the Skywork-UniPic2.0 repository! This repository features the model 
 ### 📦 Required Packages
 Create virtual environment and install dependencies with pip:
 ```shell
-conda create -n unipic_v2 python==3.10.14
+conda create -n unipic_v2 python==3.10
 conda activate unipic_v2
 pip install -r requirements.txt
 ```
