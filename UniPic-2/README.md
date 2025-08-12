@@ -79,7 +79,7 @@ pip install -r requirements.txt
 
 ### 📥 Checkpoints
 
-Download the model checkpoints from [🤗 Skywork UniPic2](https://huggingface.co/collections/Skywork/skywork-unipic2-6899b9e1b038b24674d996fd)。
+Download the model checkpoints from [🤗 Skywork UniPic2](https://huggingface.co/collections/Skywork/skywork-unipic2-6899b9e1b038b24674d996fd).
 ```
 
 ### 🚀 Quick Start with Scripts
