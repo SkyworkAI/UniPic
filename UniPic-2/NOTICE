@@ -6,4 +6,4 @@ This project includes code from the following open source projects:
 
 This software contains code derived from Qwen2.5 (https://github.com/QwenLM/Qwen2.5), available under the Apache License 2.0.
 
-This software contains code derived from Qwen2.5 (https://github.com/Stability-AI/sd3.5), available under the MIT License.
+This software contains code derived from sd3.5 (https://github.com/Stability-AI/sd3.5), available under the MIT License.
