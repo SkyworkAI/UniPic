@@ -3,30 +3,30 @@ import os
 from pathlib import Path
 from huggingface_hub import snapshot_download
 
-# --- Paramètres ---
-# L'identifiant du dépôt sur Hugging Face
+# --- Parameters ---
+# The repository ID on Hugging Face
 REPO_ID = "Skywork/UniPic2-SD3.5M-Kontext-2B"
 
-# Le script se base sur son propre emplacement pour déterminer le répertoire racine.
+# The script determines the root directory based on its own location.
 SCRIPT_DIR = Path(__file__).resolve().parent
 
-# On définit le dossier de destination comme un sous-dossier "models"
-# L'opérateur / est la manière moderne de joindre des chemins avec pathlib
+# Define the target folder as a "models" subfolder
+# The / operator is the modern way to join paths with pathlib
 TARGET_DIR = SCRIPT_DIR / "models"
 
-# --- Logique du script ---
+# --- Script logic ---
 
 def clone_model():
     """
-    Clone un dépôt Hugging Face dans le sous-dossier "models".
+    Clone a Hugging Face repository into the "models" subfolder.
     """
-    print(f"Début du clonage du dépôt : {REPO_ID}")
-    # On affiche le chemin de destination final
-    print(f"Destination : {TARGET_DIR}")
+    print(f"Starting repository cloning: {REPO_ID}")
+    # Display the final destination path
+    print(f"Destination: {TARGET_DIR}")
     print("-" * 30)
 
     try:
-        # On utilise le nouveau TARGET_DIR pour le téléchargement
+        # Use the new TARGET_DIR for downloading
         snapshot_download(
             repo_id=REPO_ID,
             local_dir=TARGET_DIR,
@@ -34,18 +34,18 @@ def clone_model():
             resume_download=True,
         )
         print("\n" + "-" * 30)
-        print(f"✅ Téléchargement terminé avec succès !")
-        print(f"Les fichiers du modèle se trouvent maintenant dans : {TARGET_DIR}")
+        print(f"✅ Download completed successfully!")
+        print(f"The model files are now located in: {TARGET_DIR}")
 
     except Exception as e:
-        print(f"\n❌ Une erreur est survenue pendant le téléchargement :")
+        print(f"\n❌ An error occurred during the download:")
         print(e)
 
 if __name__ == "__main__":
-    # Étape cruciale : créer le dossier "models" s'il n'existe pas.
-    # exist_ok=True évite une erreur si le dossier existe déjà.
-    print(f"Création du dossier de destination (si besoin) : {TARGET_DIR}")
+    # Crucial step: create the "models" folder if it doesn't exist.
+    # exist_ok=True prevents an error if the folder already exists.
+    print(f"Creating target folder (if needed): {TARGET_DIR}")
     os.makedirs(TARGET_DIR, exist_ok=True)
-    
-    # Lance la fonction de clonage
+
+    # Launch the cloning function
     clone_model()
