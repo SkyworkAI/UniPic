@@ -5,6 +5,10 @@
 
 ---
 
+<div align="center">
+  <img src="UniPic-2/assets/imgs/teaser.png" alt="Skywork UniPic2 Teaser" width="90%">
+</div>
+
 ## 📝 Overview
 
 Welcome to the **Skywork-UniPic** repository!  
