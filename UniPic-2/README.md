@@ -20,6 +20,8 @@ Welcome to the Skywork-UniPic2.0 repository! This repository features the model 
 
 ## Evaluation
 
+<p align="center"><strong>GenEval</strong></p>
+<div align="center">
 
 | Model | Single | Two | Count | Color | Position | Attr | **Overall** |
 |:------|:------:|:---:|:-----:|:-----:|:--------:|:----:|:-----------:|
