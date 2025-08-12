@@ -101,9 +101,3 @@ python scripts/unipic2_mq_editing.py \
 ```
 
 
-## Citation
-
-If you use Skywork-UniPic2 in your research, please cite:
-```
-
-```
