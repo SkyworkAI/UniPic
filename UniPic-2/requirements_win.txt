@@ -1,0 +1,19 @@
+torch
+diffusers
+peft
+xtuner
+mmengine
+transformers
+timm
+gradio
+bitsandbytes 
+accelerate
+flash-attn @ https://huggingface.co/lldacing/flash-attention-windows-wheel/resolve/main/flash_attn-2.7.4.post1%2Bcu128torch2.7.0cxx11abiFALSE-cp310-cp310-win_amd64.whl
+
+
+
+
+
+
+
+
