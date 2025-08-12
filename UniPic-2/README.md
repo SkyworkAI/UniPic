@@ -7,7 +7,7 @@
 Welcome to the Skywork-UniPic2.0 repository! This repository features the model weights and implementation of our advanced unified multimodal model, UniPic2-SD3.5M-Kontext and UniPic2-MetaQuery, which deliver state-of-the-art performance in text-to-image generation, image editing, and multimodal understanding through efficient architecture design and progressive training strategies.
 
 <div align="center">
-  <img src="assets/pdf/teaser.png" alt="Skywork UniPic2 Teaser" width="90%">
+  <img src="teaser.png" alt="Skywork UniPic2 Teaser" width="90%">
 </div>
 
 ## What's New in UniPic2
