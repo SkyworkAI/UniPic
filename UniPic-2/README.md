@@ -100,7 +100,7 @@ python scripts/unipic2_mq_editing.py \
     --seed 42
 ```
 
-### 5. Run Gradio on Windows for SD3.5M Kontext
+### Run Gradio on Windows for SD3.5M Kontext
 
 To use the Gradio interface on Windows with all dependencies installed:
 ```bash
