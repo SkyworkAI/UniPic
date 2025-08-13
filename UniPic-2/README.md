@@ -100,3 +100,42 @@ python scripts/unipic2_mq_editing.py \
     --seed 42
 ```
 
+### 5. Run Gradio on Windows for SD3.5M Kontext
+
+To use the Gradio interface on Windows with all dependencies installed:
+```bash
+git clone https://github.com/SkyworkAI/UniPic.git
+cd UniPic/UniPic-2
+```
+
+Use Anaconda:
+```bash
+conda create -n unipic python=3.10
+conda activate unipic
+```
+
+Install CUDA 12.8:
+```bash
+conda install -c nvidia/label/cuda-12.8.0 cuda -y
+```
+
+Install uv and the main dependencies:
+```bash
+pip install uv
+uv pip install -r requirements_win.txt
+```
+
+Install PyTorch compatible with CUDA:
+```bash
+uv pip install torch torchvision torchaudio --extra-index-url https://download.pytorch.org/whl/cu128 --force-reinstall
+```
+
+Download the models:
+```bash
+python download.py
+```
+
+Launch the Gradio interface:
+```bash
+python run_gradio.py
+```
