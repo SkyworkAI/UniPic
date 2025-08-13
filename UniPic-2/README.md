@@ -16,11 +16,9 @@ Welcome to the Skywork-UniPic2.0 repository! This repository features the model 
 
 ## What's New in UniPic2
 
-- **Enhanced Architecture**: Improved model architecture based on Stable Diffusion 3.5 and Flux
-- **Better Image Quality**: Advanced preprocessing and generation techniques
-- **Unified Framework**: Seamless integration of text-to-image and image editing tasks
-- **Optimized Inference**: More efficient inference pipeline with better memory management
-- **Advanced Parameters**: Fine-grained control over generation quality and style
+- **UniPic2-SD3.5M-Kontext**: A lightweight unified model for image generation and editing, enabled by large-scale pretraining, achieving leading performance under high inference speed.
+- **Progressive Dual-Task Reinforcement (PDTR)**: The first strategy to enable synergistic improvement of image generation and image editing through staged RL, without cross-task interference—significantly boosting instruction following of generation and editing consistency.
+- **UniPic2-Metaquery**: A general and modular paradigm for unified multimodal modeling, which enables end-to-end integration of understanding, generation, and editing through a parameter-efficient connector-based training strategy, achieving SOTA performance and strong generalization across tasks.
 
 ## Evaluation
 
@@ -40,7 +38,7 @@ pip install -r requirements.txt
 
 ### 📥 Checkpoints
 
-Download the model checkpoints from [🤗 Skywork UniPic2](https://huggingface.co/collections/Skywork/skywork-unipic2-6899b9e1b038b24674d996fd).
+Download the model checkpoints from [🤗 Skywork UniPic2](https://huggingface.co/collections/Skywork/skywork-unipic2-6899b9e1b038b24674d996fd). We provide both the original and RL-trained versions of `UniPic2-SD3.5M-Kontext` and `UniPic2-MetaQuery`. The RL-trained models are marked with the `-GRPO` suffix, such as [`Skywork/UniPic2-SD3.5M-Kontext-GRPO-2B`](https://huggingface.co/Skywork/UniPic2-SD3.5M-Kontext-GRPO-2B).
 
 ### 🚀 Quick Start with Scripts
 
