@@ -9,10 +9,10 @@ import numpy as np
 from einops import rearrange
 try:
     from aoss_client.client import Client
-except:
+except Exception:
     try:
         from petrel_client.client import Client
-    except:
+    except Exception:
         Client = None
 from glob import glob
 from xtuner.registry import BUILDER
